@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+}
+.card{
+    width: 250px;
+    border: 1px solid rgb(26, 118, 141);
+    margin: 5px;
+}
+.card img{
+    padding: 8px;
+    width: 250px;
+}
+.card span{
+    font-size: 15px;
+}
+.stor-item-icon{
+    padding-bottom: 5px;
+}
+.main{
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding: 3rem 0px;
+}
+.card button{
+    float: right;
+    padding: 5px;
+    background:rgb(26, 118, 141);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.card-footer button{
+    padding: 5px;
+    height: 30px;
+    font-size:8px;
+    margin-top: 8px;
+}
+@media screen and (max-width: 419px) {
+    .main{
+        margin: auto;
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        padding: 3rem 0px;
+    }
+    .card{
+        width: 300px;
+        border: 1px solid rgb(26, 118, 141);
+        margin: 5px;
+    }
+    .card img{
+        width: 300px;
+    }
+
+  }
+/* strong{
+    color: red;
+} */
+p{
+    display: inline-block;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkmagenta;
+    padding:10px 20px;
+   
+}
+nav i{
+    color: rgb(167, 181, 185);
+    font-size: 20px;
+    position: relative;
+}
+ul{
+    display: flex;
+}
+ ul li{
+     list-style: none;
+     margin: 0px 5px;
+ }
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+i span{
+    color: white;
+    font-size: 14px;
+    background-color: red;
+    position: absolute;
+    left: -10px;
+}
+i{
+    cursor: pointer;
+}
+.home{
+    height: 500px;
+    background-image: url(./img/testimonials-bg.jpg);
+    background-size: cover;
+}
+
+#cart{
+    position: absolute;
+    top: -50rem;
+    right: 0;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(26, 118, 141);
+    color: white;
+    overflow:hidden;
+}
+.show-cart{
+    margin-top: 53rem;
+    width: 15rem;
+    padding:  2rem 1.5rem;
+}
+.cart-item img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+.cart-item input{
+    height: 20px;
+}
+.cart-item{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0px;
+}
+
+.chekOut button{
+    padding: 5px;
+    border:none;
+    margin-top: 5px;
+    background-color: darkgoldenrod;
+    color: white;
+}
+.chekOut{
+    margin:10px 0px -15px 0px;
+
+}
+b{
+    color: white;
+    cursor: pointer;
+    background-color: red;
+    height: 20px;
+    width: 18px;
+    border-radius: 4px;
+    text-align: center;
+    
+}

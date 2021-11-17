@@ -1,0 +1,40 @@
+.input-form{
+    background-color: #ddd;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    margin:auto;
+}
+input{
+    margin: 5px 0;
+    padding: 5px;
+    width: 70%;
+    border-radius: 5px;
+    outline: green;
+}
+input{
+    border: red;
+}
+#button{
+   cursor: pointer;
+   width: 220px;
+    background-color: mediumvioletred;
+    color: wheat;
+}
+.wrong,.number-wrong,.pass-wrong,.confirm-wrong,.address-wrong{
+    display: block;
+    color: red
+}
+.wrong1{
+    display: block;
+    color: red
+}
+.success{
+    color: green;
+    display: block;
+
+}
+.rasel{
+    width: 300px;
+     margin-left:40px;
+}
