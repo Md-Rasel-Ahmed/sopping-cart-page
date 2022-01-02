@@ -1,2 +1,2 @@
 # shopping-cart
-https://rasel-ahemd.github.io/book-list/
+https://rasel-ahemd.github.io/shopping-cart-page/
